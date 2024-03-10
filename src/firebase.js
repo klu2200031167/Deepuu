@@ -8,16 +8,7 @@ import {getStorage} from 'firebase/storage'
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAIWJ2thf2sxdsBGfHLAjga5Q9Xi5DRe0k",
-  authDomain: "online-job-portal-37144.firebaseapp.com",
-  databaseURL: "https://jobportal-f0c59-default-rtdb.firebaseio.com",
-  projectId: "online-job-portal-37144",
-  storageBucket: "online-job-portal-37144.appspot.com",
-  messagingSenderId: "884057371039",
-  appId: "1:884057371039:web:35d4c79cf6d9133de38daa",
-  measurementId: "G-733FCF3K2Z"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
